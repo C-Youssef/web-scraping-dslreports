@@ -1,7 +1,7 @@
 
 ## Extracting review data from dslreports.com
 
-In this project, we used [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to extract review data of multiple Canadian ISPs from [dslreports.com](https://www.dslreports.com/), save the resulting dataset to a csv file, and generate charts from it usingn [Matplotlib](https://matplotlib.org).
+In this project, we used [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to extract review data of multiple Canadian ISPs from [dslreports.com](https://www.dslreports.com/), save the resulting dataset to a csv file, and generate charts from it using [Matplotlib](https://matplotlib.org).
 
 In the first notebook named [extracting_Bell_internet_review_data.ipynb](https://github.com/C-Youssef/web-scraping-dslreports/blob/main/extracting_Bell_internet_review_data.ipynb), we showed step by step how to build a function that scans a single DSL reports web page and extract review ratings and other data from it. This function was then used to extrat all Bell Internet review data and chart reviewer's ratings.
 
